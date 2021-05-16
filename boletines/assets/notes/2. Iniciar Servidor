@@ -1,0 +1,5 @@
+1. Dirigirnos a la carpeta e iniciar el servidor estatico
+
+tati
+static -p 8000
+
