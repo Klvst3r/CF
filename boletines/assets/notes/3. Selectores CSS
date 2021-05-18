@@ -32,3 +32,10 @@ botton id="boton-pag"
 	</button>
 
 Definiendo la clase para el estilo de este boton:
+#id-selector{
+	propiedad:valor;
+}
+
+#boton-pago{
+	background-color:yellow;
+}
