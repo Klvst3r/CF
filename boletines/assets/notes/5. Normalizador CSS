@@ -1,0 +1,47 @@
+Normalizador CSS
+
+Cuando un navegador despliega un elemento html, se agregan propiedades CSS que el navegador predefine, propiedades que se agregan a distintos elementos.
+
+Esto es por que el mismo codigo en diferentes navegadores y diferentes sistemas se ven distintos en cada plataforma, para evitar esto se utiliza algo a lo que llamamos  normalizadores css
+
+Son solaente archivos que eleiminan estos valores por defautl que los clientes agregan a los elementos, esto es que los valores iniciales se sustityen por otros que sean iguales en todos los clinets.
+
+Estos valores no se definen aleatoriamente, los adecuados de los estilos CSS mediante un estudio se han generado archivos que se pueden reciclar con los valores para los valores para nuestro sitio web.
+
+Una plataforma dedicada a ello es Normalizr
+
+https://necolas.github.io/normalize.css/
+
+El objetivo es que todos los elementos se muestren de manera consistente. Tambien pueden llamarse a estos archivos reseteadores. para todas las plataformas.
+
+descargamos la ultima version a la fecha 17/05/2021 la version es version 8.0.1:
+
+https://necolas.github.io/normalize.css/8.0.1/normalize.css
+
+Podemos importar tambien mediante CDN:
+
+Esta version requiere del internet el otro modo es buscandolo de manera local.
+
+Ambas formas tienen pros y contra.
+
+El enfoque local no requiere internet pero puede hacerse mas pesado el sitio web.
+
+La recomendacion es utilizar el enlace hacia la ruta del archivo en internet:
+
+https://necolas.github.io/normalize.css/8.0.1/normalize.css
+
+quedando:
+
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+
+La otra forma es guardarlo en local regularmente en 
+
+assets/css
+
+En lo particular utilizaremos la forma manual y local
+
+La recomendación es para mantener la coherencia y valores iniciales.
+
+
+
+ 
