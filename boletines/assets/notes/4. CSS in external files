@@ -1,0 +1,30 @@
+CSS en arcivos externos
+
+main.css
+
+por que es la hoja de estrilos principal .css por la extencion de hojas de estilo.
+
+Pegamos los estilos de las etiquetas a un nuevo archivo
+
+Lo recomendado es que este metodo paa poder reciclar los esilos en multiples proyectos.
+
+Ademas se organizara el codigo y sea modular.
+
+Ahora con un archivo externo hay que enlazar mediante un enlace con el archivo CSS
+
+<link rel="stylesheet" href="assets/css/main.css">
+
+link no necesita una etiqueta de cierre
+
+self close tags
+
+en la ruta cuando indicamos que deba buscarse el archivo dentro de la misma ruta en donde se aloja el archivo index.html lo indicamos mediante ./
+
+quedando la ruta:
+
+<link rel="stylesheet" href="./assets/css/main.css">
+
+La relacion se hace mediante la el atributo rel sirve para definir la relacion entre los archivos linqueando y el archivo referenciado.
+
+Este atributo siempre va con la ruta href.
+

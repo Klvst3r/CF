@@ -1,0 +1,41 @@
+Selectores CSS
+
+#selector{
+	atributo:valor;
+}
+
+
+Selectores de clase
+ Utilizan un punto 
+
+ .selector{
+ atributo:valor;
+ }
+
+
+Ej.
+.red{
+	height: 200px;
+	width: 100px;
+	background-color: red;
+}
+
+Selectores de ID
+Se asignan con el atributo ID
+
+Ej.
+
+botton id="boton-pag" 
+
+<button id="boton-pago" type="button" name="button">
+		
+	</button>
+
+Definiendo la clase para el estilo de este boton:
+#id-selector{
+	propiedad:valor;
+}
+
+#boton-pago{
+	background-color:yellow;
+}
